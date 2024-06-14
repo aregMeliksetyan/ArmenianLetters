@@ -1,16 +1,21 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Typing Game</title>
+  <title>Հայերեն տպելու խաղ</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <div id="game-container">
     <div id="falling-letter">A</div>
-    <input type="text" id="user-input" placeholder="Type here...">
+    <input type="text" id="user-input" placeholder="Մուտքագրել այստեղ">
+    <div id="timer">Ժամանակ: 0</div>
+    <div id="counters">
+      <div id="correct-counter">Ճիշտ: 0</div>
+      <div id="wrong-counter">Սխալ: 0</div>
+      <div id="metrics">(Ճիշտ-Սխալ)/Ժամանակ: 0</div>
+    </div>
   </div>
   <script src="script.js"></script>
 </body>
